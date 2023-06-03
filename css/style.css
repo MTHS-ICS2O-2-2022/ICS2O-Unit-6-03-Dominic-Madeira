@@ -1,14 +1,7 @@
 /* Created by: Dominic M.
-* Created on: March 2023
+* Created on: June 2023
 * This file contains the CSS for index.html
 */
-
-/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
-*/
-.mdl-ripple {
-  background: #000;
-  opacity: 0.001;
-}
 
 .mdl-layout__header-row {
   justify-content: center;
@@ -17,13 +10,9 @@
 }
 
 .mdl-layout__content {
-  padding-left: 20pt;
-  padding-right: 20pt;
-  padding-top: 20pt;
-}
-
-.mdl-textfield__error {
-  color: #fff;
+  padding-left: 25pt;
+  padding-right: 25pt;
+  padding-top: 25pt;
 }
 
 .page-content {
@@ -36,6 +25,7 @@ body {
   background-color: #0ff;
 }
 
-img {
+.donut {
   float: right;
+  width: 500px;
 }
