@@ -24,8 +24,7 @@ const getWeather = async (URLAddress) => {
     console.log(jsonData)
     // Get weather and convert from kelvin to celsius
     const weather = Math.round(jsonData.main.temp - 273.15)
-    document.getElementById("api-weather").innerHTML =
-      "<p>Temperature: " + weather + "°C</p>"
+    document.getElementById("api-weather").innerHTML = "<p>Temperature: " + weather + "°C</p>"
     // Get weather icon
     const icon = jsonData.weather[0].icon
     const iconURL = "http://openweathermap.org/img/w/" + icon + ".png"
