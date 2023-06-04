@@ -2,7 +2,7 @@
 //
 // Created by: Dominic M
 // Created on: June 2023
-// This file lets you check the weather
+// This program shows you the temperature outside
 
 package main
 
